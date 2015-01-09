@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<!-- Individual Pages -->
+	
+	<!-- Home Page -->
+	<definition name="home" extends="public-master">
+		<put-attribute name="public-title" value="Home" />
+		<put-attribute name="public-content" value="/WEB-INF/views/public/home.jsp" />
+	</definition>
+</tiles-definitions>

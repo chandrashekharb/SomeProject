@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<!-- Public Master Page -->
+	<definition name="public-master" template="/WEB-INF/views/public/public-tiles-template/public-master.jsp">
+		<put-attribute name="public-title" value="" />
+		<put-attribute name="public-header" value="/WEB-INF/views/public/public-tiles-template/public-header.jsp" />
+		<put-attribute name="public-styles" value="/WEB-INF/views/public/public-tiles-template/public-styles.jsp" />
+		<put-attribute name="public-content" value="/WEB-INF/views/public/public-tiles-template/public-content.jsp" />
+		<put-attribute name="public-footer" value="/WEB-INF/views/public/public-tiles-template/public-footer.jsp" />
+		<put-attribute name="public-scripts" value="/WEB-INF/views/public/public-tiles-template/public-scripts.jsp" />
+	</definition>	
+</tiles-definitions>
